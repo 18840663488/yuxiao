@@ -1,0 +1,180 @@
+<?php
+?>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="shortcut icon" href="assets/img/favicon.ico" >
+        <title>cc</title>
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CArapey&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    </head>
+    
+    <body>
+        <div class="preloader">
+            <div class="spinner"></div>
+            </div>
+        <div class="image-container">
+             <div class="background-img"></div>
+        </div>
+        <div class="content-area">
+            <div class="content-area-inner">
+                <section id="intro">
+                    <div class="container-mid">
+                        <div class="animation-container animation-fade-down" data-animation-delay="0">
+                            <h1>我是迟小宇</h1>
+                        </div>
+                        <div class="animation-container animation-fade-left" data-animation-delay="300">
+                            <p class="subline">性别男，爱好女，一个正在努力修炼的 IT工程师，<br/>网络，系统，开发，架构，运维<br/>抗压能力强，善于挑战自我，以及学习更新的技术。</p>
+                        </div>
+                        <div class="animation-container animation-fade-up" data-animation-delay="600">
+                            <a href="#about" class="smooth-scroll">下一步<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </section>
+                <section id="about">
+                    <h3 class="headline scroll-animated-from-right">为什么我可以帮助您</h3>
+                    <p class="scroll-animated-from-right">本人有多年开发经验。<br/>主修技能有：Linux，Lisp，Web开发（PHP），硬件，架构。<br/>有能力完成任何工作，以及任何项目的部署和优化。<br/>当然前提是在我所学的技能范围内。</p><br/><br/><br/>
+                    <p class="scroll-animated-from-right">关于项目，质量保证，时间保证。</p><br/><br/>
+                    <p class="scroll-animated-from-right">关于个人：很帅，很年轻，单身，<a  target="_blank" href="https://blog.chixy.cn" ><font color="#000000">博客</font></a></p><br/>
+                </section>
+                <section id="service">
+                    <h3 class="headline scroll-animated-from-right">我能帮你做什么吗</h3>
+                    <ul class="services-list">
+                        <li class="scroll-animated-from-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>概念与策略</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-eye" aria-hidden="true"></i>设计方向</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-database" aria-hidden="true"></i>产品设计</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-television" aria-hidden="true"></i>网站设计</li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-square-o" aria-hidden="true"></i>系统架构与交互设计</li>
+                    </ul>
+                </section>
+                <section id="work">
+                    <h3 class="headline scroll-animated-from-right">我的最新作品</h3>
+                    <div class="showcase">
+                        <div class="item scroll-animated-from-right">
+                            <a href="#" data-featherlight="#item-1-lightbox">
+                                <div class="info">
+                                    <div class="container-mid">
+                                        <h5>时装公司</h5>
+                                        <p>网站设计</p>
+                                    </div>
+                                </div>
+                                <div class="background-image" style="background-image: url(assets/img/work/item-1.jpg)"></div>
+                            </a>
+                            <div id="item-1-lightbox" class="work-lightbox">
+                                <img class="img-responsive" src="assets/img/work/item-1.jpg" alt="image">
+                                <h3>时装公司</h3>
+                                <p class="subline">网站设计</p>
+                                <p>为个人用户以及企业设计衣蛾官网以及搭建</p>
+                            </div>
+                        </div>
+                        <div class="item scroll-animated-from-right">
+                            <a href="#" data-featherlight="#item-2-lightbox">
+                                <div class="info">
+                                    <div class="container-mid">
+                                        <h5>产品设计</h5>
+                                        <p>产品建设搭建</p>
+                                    </div>
+                                </div>
+                                <div class="background-image" style="background-image: url(assets/img/work/item-2.jpg)"></div>
+                            </a>
+                            <div id="item-2-lightbox" class="work-lightbox">
+                                <img class="img-responsive" src="assets/img/work/item-2.jpg" alt="image">
+                                <h3>产品设计</h3>
+                                <p class="subline">产品建设搭建</p>
+                                <p>为用户和企业提供产品建设方案</p>
+                            </div>
+                        </div>
+                        <div class="item scroll-animated-from-right">
+                            <a href="#" data-featherlight="#item-3-lightbox">
+                                <div class="info">
+                                    <div class="container-mid">
+                                        <h5>项目部署</h5>
+                                        <p>项目架构</p>
+                                    </div>
+                                    </div>
+                                <div class="background-image" style="background-image: url(assets/img/work/item-3.jpg)"></div>
+                            </a>
+                            <div id="item-3-lightbox" class="work-lightbox">
+                                <img class="img-responsive" src="assets/img/work/item-3.jpg" alt="image">
+                                <h3>项目部署</h3>
+                                <p class="subline">项目架构方案</p>
+                                <p>为用户和企业提供架构方案</p>
+                            </div>
+                        </div>
+                        <div class="item scroll-animated-from-right">
+                            <a href="#" data-featherlight="#item-4-lightbox">
+                                <div class="info">
+                                    <div class="container-mid">
+                                        <h5>系统架构与交互设计</h5>
+                                        <p>方案</p>
+                                    </div>
+                                
+                                </div>
+                                <div class="background-image" style="background-image: url(assets/img/work/item-4.jpg)"></div>
+                            </a>
+                            <div id="item-4-lightbox" class="work-lightbox">
+                                <img class="img-responsive" src="assets/img/work/item-4.jpg" alt="image">
+                                <h3>系统架构与交互设计</h3>
+                                <p class="subline">方案</p>
+                                <p>为用户和企业设计系统架构以及数据交换方案 </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact">
+                    <h3 class="headline scroll-animated-from-right">联系我</h3>
+                    <ul class="contact-list">
+                        <li class="scroll-animated-from-right"><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:+8618840663488"><font color="#000000">18840663488</font></a></li>
+                        <li class="scroll-animated-from-right"><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:chixiaoyu@chixy.cn"><font color="#000000">chixiaoyu@chixy.cn</font></a></li>
+                    </ul>
+                    <form id="contact-form" action="assets/php/contact.php" method="post">
+                        <input id="contact-form-name" type="text" name="name" class="form-control scroll-animated-from-right" placeholder="* 姓名">
+                        <input id="contact-form-email" type="text" name="email" class="form-control scroll-animated-from-right" placeholder="* 邮箱">
+                        <div class="fhp-input"><input id="contact-form-company" type="text" name="company" class="form-control"></div>
+                        <textarea id="contact-form-message" name="message" class="form-control scroll-animated-from-right" placeholder="* 请留言"></textarea>
+                        <button type="submit" class="form-control scroll-animated-from-right">提交</button>
+                        <div class="success-message"><center>发送成功&nbsp;!</center></div>
+                    </form>     
+                </section>
+               
+                <section id="footer">
+                	
+                	  <div style="text-align:center" class="scroll-animated-from-right">
+                      本站已稳定运行：<SPAN id=span_dt_dt style="color: #2F889A;"></SPAN> <SCRIPT language=javascript>function show_date_time(){
+                    window.setTimeout("show_date_time()", 1000);
+                    BirthDay=new Date("01/01/2020 00:00:00");
+                    today=new Date();
+                    timeold=(today.getTime()-BirthDay.getTime());
+                    sectimeold=timeold/1000
+                    secondsold=Math.floor(sectimeold);
+                    msPerDay=24*60*60*1000
+                    e_daysold=timeold/msPerDay
+                    daysold=Math.floor(e_daysold);
+                    e_hrsold=(e_daysold-daysold)*24;
+                    hrsold=Math.floor(e_hrsold);
+                    e_minsold=(e_hrsold-hrsold)*60;
+                    minsold=Math.floor((e_hrsold-hrsold)*60);
+                    seconds=Math.floor((e_minsold-minsold)*60);
+                    span_dt_dt.innerHTML='<font style=color:#C40000>'+daysold+'</font> 天 <font style=color:#C40000>'+hrsold+'</font> 时 <font           style=color:#C40000>'+minsold+'</font> 分 <font style=color:#C40000>'+seconds+'</font> 秒';
+    }
+	                show_date_time();</script>
+                </div>
+                	
+                    <div style="text-align:center" class="scroll-animated-from-right"><a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action" class="text" target="_blank"><font color="#000000">京ICP证&nbsp;20019563</font></a>&nbsp;<img src="/assets/img/beian.png" width=20px" height="20px"  />&nbsp;<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011302002039" ><font color="#000000">京公网安备&nbsp;11011302002039号</font></a>
+                    </div>
+		 
+	            	 
+	            	 <div style="text-align:center" class="scroll-animated-from-right"> <a  target="_blank" href="http://www.gov.cn/guoqing/2005-09/13/content_5043908.htm" ><img src="/assets/img/zh.png" width=20px" height="20px" /></a>&nbsp;<a  target="_blank" href="http://www.gov.cn" ><font color="red">中国(China)</font></a>&nbsp;&nbsp;&nbsp;<a href="##"><font color="#000000">社会责任感</font></a>
+	                 </div>
+	                 <div style="text-align:center" class="scroll-animated-from-right">
+	            	 <font size="+1"> &copy; 2020-<?php echo date("Y") ?>&nbsp;<a href="http://chixy.cn" target="_blank" title="chixy"><font color="#000000">Chixy</font></a> - All rights reserved </font></div>
+                </section>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/js/plugins.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+</html>
